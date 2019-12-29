@@ -1,0 +1,68 @@
+body{
+    width:80%;
+    margin:auto;
+    /* max-zoom: 1.0; */
+    /* min-width:120%;            Min-width maintains the minimum width of body/element that should be there on screen. It introduces scroll bar if necessary to maintain width */
+    border:1.3vw solid #bdc3c7;
+    padding: 1rem 1rem 1rem 1rem;
+    font-family:"Source Sans pro";
+    display:block;
+    /* font-size:1vw; */
+
+}
+.date{
+    color:#3498bd;
+    text-transform:uppercase;
+    letter-spacing: 0.3vw;
+    font-size: 1.4em;
+    font-weight:600;
+}
+h2{
+    text-transform:capitalize;
+    font-size: 2.0rem;
+}
+.first,.second,.third,.fourth{
+    text-align: justify;
+}
+div p:nth-of-type(1)::first-letter{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+div p:nth-of-type(1){
+    border-left:5px solid rgba(187, 187, 187, 0.829);
+    padding-left:1px;
+}
+#hide{
+    display:none;
+}
+  @media(min-width:998px)            /* USE OF RESPONSIVE HTML WEB PAGE DESIGN ELEMENT.
+                                       THE PROPERTY OUTSIDE THIS BOLCK WILL BE ALSO USED WHEN THIS BLOCK IS ACTIVE */
+{
+   article{
+       /* display: flow-root; */
+       /* width:48%; */
+       margin-right:5px;
+   }
+       
+
+   .art1{
+       /* width:45%; */
+   }
+.art2,.art4{
+    /* float:right; */
+     /* display:inline-block;                       this doesnot need flow root to have same display*/         
+    /* width:48%; */
+     margin-left:7%;                 
+}
+body{
+    width:60%;
+    /* display: flow-root; */
+    
+    }   
+}
+
+/* 
+                                                        LEARN ABOUT DISPLAY PROPERTY
+                                                        MEDIA 
+                                                        MIN-MAX WIDTH APPLICATIONS
+                                                        POSITIONING OF ELEMENTS */

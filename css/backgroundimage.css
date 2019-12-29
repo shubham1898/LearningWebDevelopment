@@ -1,0 +1,9 @@
+body{
+    /* background: url(https://images.pexels.com/photos/1656564/pexels-photo-1656564.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260); */
+    background-size: inherit;
+    background: url(close-up-of-christmas-decoration-hanging-on-tree-250177.jpg);
+}
+h1{
+    color:red;
+    /* https://images.pexels.com/photos/1656564/pexels-photo-1656564.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260 */
+}

@@ -1,0 +1,34 @@
+html{
+    background:black;
+    background: url(photoblogbackground3.jpg);
+    background-size: cover;
+    background-repeat: round;
+}
+body{
+    background:rgba(163, 153, 153,0.5);
+    /* background: url(); */
+    background-size:70%;
+    position:absolute;
+    margin:20px;
+    padding:20px;
+}
+img{
+    width:30%;
+    margin:1.56%;
+    float:left;
+}
+
+div h1{
+    font-size:4em;
+    font-family: Girassol;
+    width: 40%;
+    text-align:center;
+    margin:1rem auto; 
+            /* The concepts and precaution of using em and rem .here margin=2em means = 2*3*fontsize(body/default)=6em */
+            padding:10px 10px 30px 10px;
+            border-bottom:0.2rem solid gray;
+}
+/* hr{
+    width: 33%;
+    margin:0px auto;
+} */

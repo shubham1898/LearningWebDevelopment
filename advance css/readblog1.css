@@ -1,0 +1,39 @@
+body{
+    width:80%;
+    margin:auto;
+    max-zoom: 1.0;
+    border:1.3vw solid #bdc3c7;
+    padding: 1.4vw;
+    font-family:"Source Sans pro";
+    display:block;
+    /* font-size:1vw; */
+
+}
+.date{
+    color:#3498bd;
+    text-transform:uppercase;
+    letter-spacing: 0.3vw;
+    font-size: 1.4em;
+    font-weight:600;
+}
+h2{
+    text-transform:capitalize;
+}
+.first,.second,.third,.fourth{
+    text-align: justify;
+}
+div p:nth-of-type(1)::first-letter{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+div p:nth-of-type(1){
+    border-left:5px solid rgba(187, 187, 187, 0.829);
+    padding-left:1px;
+}
+#hide{
+    display:none;
+}
+ /* article{ */
+    /* min-width:700px; */
+   /* width:40%;                            Bad idea to use min width with the article as theu will overlap body paddings and margins */
+/* } */

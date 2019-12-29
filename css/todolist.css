@@ -1,0 +1,25 @@
+li {
+	border: 2px solid red;
+}
+
+#special{
+	background: yellow;
+}
+
+.completed {
+	text-decoration: line-through;
+}
+#imp{
+    background:rgba(201, 10, 10, 0.678);
+    text-decoration: underline;
+}
+.batch{
+    background:lightgreen;
+    text-decoration: double;
+
+}
+div:hover{
+    background:url(https://images.unsplash.com/photo-1482517716521-3120e5340ed3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
