@@ -22,7 +22,10 @@
         width:80%;
     }
 }
-.row1,.row2{
+ .row1,.row2{                                   /*  This is one of method to align content and item div to center.
+                                                 not much great but can be used to align item to center .
+                                                 Display proprty not used*/
+
 text-align: center;
 width:50%;
 margin: auto;
