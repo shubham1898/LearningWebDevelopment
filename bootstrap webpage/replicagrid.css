@@ -1,6 +1,9 @@
 .main{
     margin:auto;
     padding:20px;
+    display: flex;
+    /* height: fit-content; */
+    
     /* text-align: center; */
 }
 
@@ -25,8 +28,26 @@
  .row1,.row2{                                   /*  This is one of method to align content and item div to center.
                                                  not much great but can be used to align item to center .
                                                  Display proprty not used*/
-
+/* float:left; */
+/* display: flex; */
 text-align: center;
-width:50%;
+width:40%;
 margin: auto;
+border:4px solid red;
+/* display: inline-block; */                    /*no use of this statement.display property works for elements ,items inside the the lement under which it is applied*/
+
+}
+
+.para
+{
+    background-color: rgba(147, 192, 147, 0.747);
+    width:18%;
+    /* margin:; */
+    padding: 0px 3px 0px 3px;
+    float:left;                                                 /*refer here*/
+    /* text-align: justify; */
+
+}
+.para1{
+    margin-left:0.48%;
 }
