@@ -1,0 +1,11 @@
+#firstdiv{
+    position: relative;
+    display:block;
+    width:50vw;
+    margin:auto;
+    top:50vh;
+    border:3px solid red;
+    padding:3px;
+    text-align: justify;
+
+}

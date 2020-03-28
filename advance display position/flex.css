@@ -1,0 +1,76 @@
+body{
+    background:lightcyan;
+}
+
+.header{
+    width:70%;
+    font-size: 2rem;
+    font-weight: 700;
+    margin:auto;
+    padding:30px;
+    border-bottom: 3px solid gray;
+    justify-content: center;
+    align-items: center;
+}
+.header>p,h2{
+    width:fit-content;
+    margin-left:auto;
+    margin-right: auto;
+}
+.obox{
+    position:relative;
+    top:20px;
+    border:2px dotted rgb(236, 152, 152);
+    width:50vw;
+    height: 50vw;
+    display: flex;
+    /* flex-direction: row-reverse;            axis changes on changing flex direction property */
+    flex-direction: row;
+    /* align-items: stretch;
+    justify-content: stretch; */
+    flex: 1 2 auto;
+    margin:auto;
+    margin-bottom: 2rem;
+    text-align: center;
+
+}
+.ibox{
+    /* position: relative;
+    top:0px;
+    left:80px; */
+    border:1px solid lightsalmon;
+    background:rgb(175, 235, 175);
+    flex-grow: 2;
+    /* width:10vw;
+    height:10vw; */
+    /* padding-top: 5vw; */
+    /* padding-bottom: 5vw; */
+}
+.ibox1{
+    /* position: absolute;
+    bottom:40px;
+    right:80px; */
+    border:1px solid lightsalmon;
+    background:rgb(175, 235, 175);
+    flex-grow: 4;
+    /* width:10vw;
+    height:10vw; */
+}
+.ibox2{
+    /* position: absolute;
+    top:40px;
+    right:80px; */
+    border:1px solid lightsalmon;
+    background:rgb(175, 235, 175);
+    /* width:10vw;
+    height:10vw; */
+}
+.ibox3{
+    /* position: absolute;
+    bottom:40px;
+    left:80px; */
+    border:1px solid lightsalmon;
+    background:rgb(175, 235, 175);
+    /* width:10vw;
+    height:10vw; */
+}

@@ -3,15 +3,16 @@
                                     <!-- This HTML is important to understand the implication of Position:Relative,Fixed,absolute and Float Property. -->
 
 <head>
-    <style>
+    <style>                                /*!important scroll will only appear if element move out of screen on right but if element move out of screen on left scroll will not appear and element will be lost of screen*/
         div.relative {
             position: relative;
             border: 3px solid #73AD21;
-            right:700px;
+            right:700px;                          /*Right will shift the element even if spaces are present in right after display inline flex makes the width uto the content change right to 0px to understand
+            relative position itself with respect to its previous element*/
             padding:10px;
             display:inline-flex;
             height:70px;
-            width:600px;
+            width:400px;
 
             /* margin:300px; */
         }
@@ -22,7 +23,7 @@
             border: 3px solid blue;
         }
         div.absolute{                                        /* Float property not applicable to absolute positioned element */
-            position:absolute;
+            position:absolute;                               /*absolute position itself with respect to its conatiner element*/
             border:1.5px solid black;
             bottom:0;
             right:0;
@@ -58,7 +59,7 @@
     <div class="relative">
         This div element has <div class=absolute>This is a absolute block</div>position: relative;     
      </div>  <!--  The absolute class is not commimg inline with other sentence due to position property. -->
-    <div style="padding-bottom: 1000px;">An element with position: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque totam ipsa quisquam obcaecati delectus velit distinctio consequuntur odit, accusamus cumque quae ad repudiandae tempore eius minus enim, natus a ipsam.</div>
+    <div style="padding-bottom: 1px;">An element with position: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque totam ipsa quisquam obcaecati delectus velit distinctio consequuntur odit, accusamus cumque quae ad repudiandae tempore eius minus enim, natus a ipsam.</div>
        <div class=fixed>This element is fixed in the page</div>
        
 </body>

@@ -1,0 +1,22 @@
+.coverall{
+    border: 5px solid #d36014;
+    position: relative;
+    margin:auto;
+    display:flexbox;
+
+
+}
+.couter{
+    background:#e47226;
+    position:absolute;
+    display:inline-block;
+    left:20px;
+    bottom:30px;
+}
+.cinner{
+    background:#06a737;
+    position:absolute;
+    display:inline-block;
+    right:30px;
+    top:10px;
+}

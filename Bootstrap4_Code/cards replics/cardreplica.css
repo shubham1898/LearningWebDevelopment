@@ -1,0 +1,78 @@
+body{
+    padding-left:30px;
+    padding-right:30px;
+    margin :auto;
+    background:lightcyan;
+    width:100vw;
+
+}
+.head{
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration-color: lightpink;
+}
+.cards{
+    margin :20vh 9vw;
+    width:30vw;
+    border:2px solid rgb(155, 66, 66);
+    /* position:relative; */
+    top:40px;
+    float:left;
+    margin-bottom:200px;
+    word-wrap: break-word;
+    /* position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem; */
+
+}
+.images{
+    /* position:absolute; */
+    /* top:0px; */
+    padding:10px;
+    z-index: 999;
+    /* width:30%; */
+    height:50vh;
+    border:1px solid red;
+    background: url(photoblogbackground.jpg) ;
+    background:cover;
+
+   /* image-rendering: crisp-edges;*/
+   background-repeat: no-repeat;
+   
+   /* -ms-flex-negative: 0;
+   flex-shrink: 10;
+   width: 100% */
+
+
+}
+.words{
+    /* position:relative; */
+    margin: 1px auto;
+    text-align: justify;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    padding-left:20px;
+    padding-right:20px;
+    border-left:11px solid lightskyblue;
+    border-right:11px solid lightskyblue;
+    
+}
+.buttons{
+    width:fit-content;
+    background:lightsalmon;
+    margin-left:20px;
+
+}
+/* .style{
+    border-left:2px solid red;
+} */
