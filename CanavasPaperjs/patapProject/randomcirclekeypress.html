@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Patatap_project_clone v1</title>
+     <script src="paper-full.js"></script>
+     <!-- <script src="paper-core.min.js"></script> -->
+     <link rel="stylesheet" href="patatap-v1.css">
+     <script type="text/paperscript" canvas="mycanvas">
+        
+       
+        function onKeyDown(event)
+        {
+            var w=view.size.width;
+            var h=view.size.height;
+            function xcord(){
+           
+            return Math.floor(Math.random()* w);       //var randomPoint=Point.random()
+        }
+        function ycord(){
+            return Math.floor(Math.random()* h);
+        }
+        
+        function radius(){
+           
+            return Math.floor(Math.random()* 100);
+        }
+        function randomcolor(){
+            var r=Math.floor(Math.random()*256);
+            var g=Math.floor(Math.random()*256);
+            var b=Math.floor(Math.random()*256);
+            return "rgb("+r+","+g+","+b+")"
+        }
+            
+            console.log(w,h);
+            var circle=new Path.Circle(new Point(xcord(),ycord()), 30);
+            circle.fillColor=randomcolor();
+            
+        }
+       
+    </script>
+   
+</head>
+<body>
+    <canvas id="mycanvas" resize></canvas>
+</body>
+</html>
