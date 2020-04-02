@@ -25,16 +25,17 @@ app.get("/r/:subredditName", function(req, res){
 
 app.get("/r/:subredditName/comments/:id/:title/", function(req, res){
     console.log(req.params);
-    res.send("WELCOME TO THE COMMENTS PAGE!"); 
+	for(var i=0;i<=100;i++){
+    res.send("WELCOME TO THE COMMENTS PAGE!"); }
 });
 
-app.get("*", function(req, res){
-  res.send("YOU ARE A STAR!!!"); 
-});
+// app.get("*", function(req, res){
+//   res.send("YOU ARE A STAR!!!"); 
+// });
 
 
 // Tell Express to listen for requests (start server)
 
-app.listen(process.env.PORT, process.env.IP, function(){
+app.listen(3000, function(){
     console.log("Server has started!!!");
 });

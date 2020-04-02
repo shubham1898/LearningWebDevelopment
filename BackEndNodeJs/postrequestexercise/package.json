@@ -1,0 +1,18 @@
+{
+  "name": "postrequestexercise",
+  "version": "1.0.0",
+  "description": "This is post request demo app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "form",
+    "website"
+  ],
+  "author": "kumar shubham",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
