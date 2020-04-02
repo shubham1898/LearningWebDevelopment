@@ -2,7 +2,7 @@
 <html>
 	
 	<head>
-		<title>The Form webpage</title>
+		<title>The Form webpage of friend</title>
 	</head>
 	<body>
 		<h1>These are list of your FRIEND</h1>
@@ -10,7 +10,7 @@
 		<% for(var i=0;i<data.length;i++){ %>
 			<li> <%= data[i] %> </li>
 			<% } %>
-			<form action="/addFriend" method="POST">
+			<form action="/addfriend" method="POST">
 				<!-- <label for="friend">NAME: </label> -->
 			<input type="text" name="newfriend" placeholder="Add Friend" >
 			<!-- <input type="button" value="Submit"> -->

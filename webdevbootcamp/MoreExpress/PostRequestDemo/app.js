@@ -21,6 +21,7 @@ app.get("/friends", function(req, res){
     res.render("friends", {friends: friends});
 });
 
-app.listen(process.env.PORT, process.env.IP, function(){
+// app.listen(process.env.PORT, process.env.IP, function(){
+app.listen(3000, function(){
    console.log("Server started!!!"); 
 });
