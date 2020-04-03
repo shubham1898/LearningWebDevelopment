@@ -1,0 +1,21 @@
+{
+  "name": "apiapplicaton",
+  "version": "1.0.0",
+  "description": "It contains basics about API use and data retrivals",
+  "main": "apis.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "data",
+    "request"
+  ],
+  "author": "kumar shubham",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "unirest": "^0.6.0"
+  }
+}
