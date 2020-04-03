@@ -2,7 +2,7 @@
   "name": "postrequestexercise",
   "version": "1.0.0",
   "description": "This is post request demo app",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,7 +13,9 @@
   "author": "kumar shubham",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "ejs": "^3.0.2",
     "express": "^4.17.1"
-  }
+  },
+  "devDependencies": {}
 }
