@@ -3,4 +3,6 @@ var app=express();
 var request=reqiure("request")
 
 
-app.get("")
+app.get(""/", (req,res)=> {
+
+});

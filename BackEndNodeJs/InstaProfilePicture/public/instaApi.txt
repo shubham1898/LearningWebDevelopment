@@ -1,0 +1,3 @@
+The url to get all details of user instagram home page
+if account is private it will retrive only Profile picture and its bio
+https://www.instagram.com/USER_NAME/?__a=1
