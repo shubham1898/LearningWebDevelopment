@@ -43,3 +43,24 @@
 // app.listen(3000,()=>{
 //     console.log("Serever online")
 // });
+app.post("/username",function (req, res) {
+    try{
+       parsedata = req.body.userID;
+   //  siteUrl = "https://www.instagram.com/"+parsedata+"/?__a=1";
+    siteUrl='https://instagram.com/graphql/query/?query_id=17888483320059182&variables={"id":"1951415043","first":20,"after":null}';
+    console.log(siteUrl);
+   await fetchData();
+   // console.log(ret);
+//    console.log(globalresult.data.user.edge_owner_to_timeline_media.edges[2].node.display_url);
+//    fetchData();
+   console.log(globalresult.data.user.edge_owner_to_timeline_media.edges[2].node.display_url);
+
+  console.log(typeof parsedata);
+  
+   res.render("result.ejs",{userid:parsedata});
+}
+catch (e) {
+   console.error(e); // log internal error
+   return next(new Error('Internal Server Error')); // return public error to client
+ }
+});

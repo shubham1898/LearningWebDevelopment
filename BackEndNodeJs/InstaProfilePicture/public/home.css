@@ -1,0 +1,13 @@
+body{
+    background-color:lightpink;
+    height:100vh;
+    width:100vw;
+}
+.jumbotron{
+    background-color:rgba(247, 175, 235,0.6);
+   
+}
+.subhead1{
+    color:rgb(8,15,40);
+    font-weight: 400;
+}
