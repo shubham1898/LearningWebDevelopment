@@ -56,7 +56,7 @@ app.post("/username", async (req, res)=> {
         await fetchData();
         data=globalresult.data.user.edge_owner_to_timeline_media.edges;
         // console.log(data[50].node.display_url);
-        res.render("result.ejs", {data:data, userid:id, postcount:postcount,fullname:full_name,bio:bio,k:count1,profilepicurl:profilepicurl});
+        res.render("result.ejs", {data:data, userid:id, postcount:postcount,fullname:full_name,bio:bio,k:count1,profilepicurl:profilepicurl,username:parsedata});
     }
     catch (e) {
         console.error(e); // log internal error
